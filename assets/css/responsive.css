@@ -1,0 +1,118 @@
+@media (min-width: 400px) and (max-width: 800px) {
+    .home__title {
+      font-size: 200%;
+    }
+    .home__subtitle {
+        font-size: 18px;
+    }
+    .home__social-icon {
+        width: max-content;
+        margin-bottom: var(--mb-2);
+        font-size: 35px;
+        color: var(--second-color);
+      }
+      .about__img img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        left: 119px;
+      }
+      .about__img {
+        justify-self: center;
+        width: 380px;
+        text-align: center;
+        font-size: 13.5px;
+        align-items: center;
+        height: 500px;
+    }
+    .footer__descript {
+        font-size: 10px;
+    }
+    .nav {
+        height: var(--header-height);
+        justify-content: center;
+        align-items: center;
+        font-weight: var(--font-semi);
+      }
+    
+      .nav__list {
+        display: flex;
+        padding-top: 0;
+        padding-right: 60px;
+      }
+    
+      .nav__item {
+        margin-left: var(--mb-6);
+        margin-bottom: 0;
+      }
+    
+      .nav__toggle {
+        display: none;
+      }
+    
+      .nav__link {
+        color: var(--second-color);
+      }
+  }
+
+
+  @media (min-width: 350px) and (max-width: 870px) {
+    .home__title {
+      font-size: 200%;
+    }
+    .home__subtitle {
+        font-size: 18px;
+    }
+    .home__social-icon {
+        width: max-content;
+        margin-bottom: var(--mb-2);
+        font-size: 33px;
+        color: var(--second-color);
+      }
+      .about__img img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        position: relative;
+        left: 100px;
+      }
+      .about__img {
+        justify-self: center;
+        width: 353px;
+        text-align: center;
+        font-size: 12.5px;
+        align-items: center;
+        height: 500px;
+    }
+    .footer__descript {
+        font-size: 10px;
+    }
+    .nav {
+        height: var(--header-height);
+        justify-content: center;
+        align-items: center;
+        font-weight: var(--font-semi);
+      }
+    
+      .nav__list {
+        display: flex;
+        padding-top: 0;
+        padding-right: 60px;
+      }
+    
+      .nav__item {
+        margin-left: var(--mb-6);
+        margin-bottom: 0;
+      }
+    
+      .nav__toggle {
+        display: none;
+      }
+    
+      .nav__link {
+        color: var(--second-color);
+      }
+  }
