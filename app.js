@@ -9,6 +9,6 @@ app.use('/favicon.ico', express.static(path.join(__dirname, 'assets/img/favicon.
         res.sendfile(path.join(__dirname, 'index.html'));
     });
 
-    app.listen(3050, () => {
-        console.log(`Nam insider vô cổng http://localhost:3050`);
+    app.listen(80, () => {
+        console.log(`Nam insider vô cổng http://localhost:80`);
     });
