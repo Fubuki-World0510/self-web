@@ -10,4 +10,5 @@ app.get("/dontclick", (req, res) => {
     res.sendFile('/rickroll.html', { root: __dirname });
 });
 app.use(express.static(__dirname + '/'));
+app.listen(port, () => console.log(`Self page in port ${port}`));
 module.exports = app;
