@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anime.js Hello World</title>
+    <style>
+        .box {
+            width: 50px;
+            height: 50px;
+            background-color: #3498db;
+            margin: 100px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box"></div>
+
+    <!-- Chèn thư viện Anime.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+    <script>
+        // Tạo animation
+        anime({
+            targets: '.box',         // mục tiêu: phần tử có class .box
+            translateX: 200,         // di chuyển theo trục X 200px
+            rotate: '1turn',         // quay 360 độ (1 turn)
+            backgroundColor: '#e74c3c', // đổi màu nền thành đỏ
+            duration: 2000,          // thời gian animation là 2000ms = 2 giây
+            easing: 'easeInOutQuad', // easing (hiệu ứng chuyển động)
+            direction: 'alternate',  // alternate: animation chơi xuôi rồi ngược
+            loop: true               // lặp vô hạn
+        });
+    </script>
+</body>
+
+</html>

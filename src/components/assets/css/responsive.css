@@ -1,0 +1,196 @@
+/* Mobile - Small (320px and up) */
+
+@media screen and (min-width: 320px) {
+  .home__title {
+    font-size: 150%;
+  }
+
+  .home__subtitle {
+    font-size: 16px;
+  }
+
+  .home__social-icon {
+    font-size: 28px;
+  }
+
+  .about__img img {
+    width: 120px;
+    height: 120px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .about__img {
+    width: 100%;
+    font-size: 12px;
+    height: 450px;
+  }
+}
+
+/* Mobile - Medium (375px and up) */
+@media screen and (min-width: 375px) {
+  .home__title {
+    font-size: 180%;
+  }
+
+  .home__subtitle {
+    font-size: 17px;
+  }
+
+  .about__img img {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+/* Mobile - Large (425px and up) */
+@media screen and (min-width: 425px) {
+  .home__title {
+    font-size: 200%;
+  }
+
+  .home__subtitle {
+    font-size: 18px;
+  }
+
+  .about__img img {
+    width: 140px;
+    height: 140px;
+  }
+}
+
+/* Tablet (768px and up) */
+@media screen and (min-width: 768px) {
+  .home__title {
+    font-size: 250%;
+  }
+
+  .home__subtitle {
+    font-size: 20px;
+  }
+
+  .home__social-icon {
+    font-size: 35px;
+  }
+
+  .about__img img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .about__img {
+    width: 600px;
+    font-size: 14px;
+    height: 500px;
+  }
+
+  .nav__list {
+    padding-right: 40px;
+  }
+}
+
+/* Laptop (1024px and up) */
+@media screen and (min-width: 1024px) {
+  .home__title {
+    font-size: 300%;
+  }
+
+  .home__subtitle {
+    font-size: 22px;
+  }
+
+  .about__img {
+    width: 800px;
+    font-size: 16px;
+  }
+
+  .nav__list {
+    padding-right: 60px;
+  }
+}
+
+/* Desktop (1440px and up) */
+@media screen and (min-width: 1440px) {
+  .home__title {
+    font-size: 350%;
+  }
+
+  .home__subtitle {
+    font-size: 24px;
+  }
+
+  .about__img {
+    width: 1000px;
+  }
+}
+
+/* Extra Small Devices (dưới 320px) */
+@media screen and (max-width: 319px) {
+    .home__title {
+        font-size: 130%;
+    }
+
+    .home__subtitle {
+        font-size: 14px;
+    }
+
+    .home__social-icon {
+        font-size: 24px;
+        margin-bottom: var(--mb-1);
+    }
+
+    .about__img img {
+        width: 100px;
+        height: 100px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .about__img {
+        width: 100%;
+        font-size: 11px;
+        height: 400px;
+    }
+
+    .nav__list {
+        padding-right: 20px;
+    }
+
+    .nav__item {
+        margin-left: var(--mb-3);
+    }
+
+    .footer__descript {
+        font-size: 9px;
+    }
+}
+
+/* Common styles for all screen sizes */
+.nav {
+  height: var(--header-height);
+  justify-content: center;
+  align-items: center;
+  font-weight: var(--font-semi);
+}
+
+.nav__list {
+  display: flex;
+  padding-top: 0;
+}
+
+.nav__item {
+  margin-left: var(--mb-6);
+  margin-bottom: 0;
+}
+
+.nav__toggle {
+  display: none;
+}
+
+.nav__link {
+  color: var(--second-color);
+}
+
+.footer__descript {
+  font-size: clamp(10px, 2vw, 14px);
+}
